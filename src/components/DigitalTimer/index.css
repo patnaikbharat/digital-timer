@@ -1,0 +1,135 @@
+.bg-container {
+  background-image: linear-gradient(#cffcf1, #defafe);
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.operation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+}
+
+.timer-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 50%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-container {
+  background-color: #ffffff;
+  border-radius: 100px;
+  border-width: 0px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.timer {
+  color: #00d9f5;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.status {
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+.remote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-pause-reset-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  width: 40px;
+  margin-right: 5px;
+}
+
+.text {
+  color: #0f172a;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-right: 20px;
+}
+
+.set-timer-text {
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.set-timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.plus-minus-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.plus-minus {
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.set-timer {
+  color: #0f172a;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  border-radius: 8px;
+  border-width: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+@media (max-width: 577px) {
+  .operation-container {
+    flex-direction: column;
+  }
+}
